@@ -1,0 +1,124 @@
+[
+    {
+      "product_id": "LAP001",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/q17zbvK/latop.jpg",
+      "category": "Laptop",
+      "price": 1200.99,
+      "description": "A powerful ultrabook with a stunning display and great battery life.",
+      "specification": ["13.4-inch FHD", "Intel i7", "16GB RAM", "512GB SSD"],
+      "availability": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "product_id": "MAC001",
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/HxfV4Zg/MAC001.webp",
+      "category": "MacBook",
+      "price": 1099.99,
+      "description": "Apple's latest MacBook Air with an M2 chip and sleek design.",
+      "specification": ["13.6-inch Retina", "M2 Chip", "8GB RAM", "256GB SSD"],
+      "availability": "In Stock",
+      "rating": 4.7
+    },
+    {
+      "product_id": "MAC002",
+      "product_title": "MacBook Pro 16",
+      "product_image": "https://i.ibb.co.com/fvSQMZD/3n.jpg",
+      "category": "MacBook",
+      "price": 2499.99,
+      "description": "A high-performance laptop for professionals with M2 Max chip.",
+      "specification": ["16-inch Retina", "M2 Max", "32GB RAM", "1TB SSD"],
+      "availability": "In Stock",
+      "rating": 4.9
+    },
+    {
+      "product_id": "PHN001",
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co.com/NxYt20J/i-Phone-14-Pro.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "Apple's latest flagship smartphone with advanced camera features.",
+      "specification": ["6.1-inch OLED", "A16 Bionic", "128GB Storage", "Triple Camera"],
+      "availability": "Not Available",
+      "rating": 4.7
+    },
+    {
+      "product_id": "PHN003",
+      "product_title": "iPhone 16 Pro",
+      "product_image": "https://i.ibb.co.com/MPFfvWm/images.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "Apple's latest flagship smartphone with advanced camera features.",
+      "specification": ["6.1-inch OLED", "A16 Bionic", "128GB Storage", "Triple Camera"],
+      "availability": "Not Available",
+      "rating": 4.7
+    },
+    {
+      "product_id": "PHN002",
+      "product_title": "iPhone 13 Mini",
+      "product_image": "https://i.ibb.co.com/NrPkWLt/mini12.jpg",
+      "category": "iPhone",
+      "price": 799.99,
+      "description": "A compact powerhouse with the latest iOS features.",
+      "specification": ["5.4-inch OLED", "A15 Bionic", "128GB Storage", "Dual Camera"],
+      "availability": "In Stock",
+      "rating": 4.6
+    },
+    {
+      "product_id": "PHN003",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.ibb.co.com/gZ9gxLL/Samsung-Galaxy-S23-Ultra.jpg",
+      "category": "Phone",
+      "price": 1299.99,
+      "description": "Samsung's high-end smartphone with S-Pen support.",
+      "specification": ["6.8-inch AMOLED", "Snapdragon 8 Gen 2", "256GB Storage", "Quad Camera"],
+      "availability": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "product_id": "ACC001",
+      "product_title": "Apple AirPods Pro",
+      "product_image": "https://i.ibb.co.com/9YsPrRs/Apple-Air-Pods-Pro.jpg",
+      "category": "Accessory",
+      "price": 249.99,
+      "description": "Apple's noise-canceling wireless earbuds with spatial audio.",
+      "specification": ["Active Noise Cancellation", "Transparency Mode", "MagSafe Charging"],
+      "availability": "In Stock",
+      "rating": 4.8
+    },
+    {
+      "product_id": "ACC002",
+      "product_title": "Samsung Galaxy Buds 2 Pro",
+      "product_image": "https://i.ibb.co.com/WW7KNC7/Samsung-Galaxy-Buds-2-Pro.jpg",
+      "category": "Accessory",
+      "price": 199.99,
+      "description": "High-fidelity wireless earbuds with 360-degree audio.",
+      "specification": ["ANC", "Hi-Fi Sound", "Wireless Charging"],
+      "availability": "In Stock",
+      "rating": 4.7
+    },
+    {
+      "product_id": "WAT001",
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://i.ibb.co.com/0VhBpjf/Apple-Watch-Series-8.jpg",
+      "category": "Smartwatch",
+      "price": 499.99,
+      "description": "Apple's latest smartwatch with health tracking features.",
+      "specification": ["Always-On Retina Display", "ECG Monitoring", "GPS + Cellular"],
+      "availability": "In Stock",
+      "rating": 4.9
+    },
+    {
+      "product_id": "WAT002",
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://i.ibb.co.com/2nLYxFC/Samsung-Galaxy-Watch-5.webp",
+      "category": "Smartwatch",
+      "price": 299.99,
+      "description": "Samsung's stylish smartwatch with Wear OS.",
+      "specification": ["Super AMOLED Display", "Heart Rate Sensor", "Bluetooth 5.0"],
+      "availability": "Not Available",
+      "rating": 4.6
+    }
+  ]
+  

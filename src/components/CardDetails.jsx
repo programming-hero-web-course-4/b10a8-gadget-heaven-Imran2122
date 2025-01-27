@@ -37,7 +37,7 @@ const CardDetails = () => {
   };
 
   return (
-    <div className="hero bg-base-200 px-10 py-10">
+    <div className="hero bg-base-200 px-10 py-10 ">
       <div className="hero-content flex flex-col lg:flex-row gap-[15px] items-center lg:items-start w-full">
         {/* Product Image */}
         <div className="w-full lg:w-[30%]">

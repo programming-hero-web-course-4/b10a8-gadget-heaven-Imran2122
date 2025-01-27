@@ -8,8 +8,8 @@ import AddToCart from "./AddToCart";
 
 const DashBoard = () => {
   const [products, setProducts] = useState([]);
-  const [activeTab, setActiveTab] = useState("cart"); // Default view: Cart
-  const [totalPrice, setTotalPrice] = useState(0); // State for total price
+  const [activeTab, setActiveTab] = useState("cart"); 
+  const [totalPrice, setTotalPrice] = useState(0); 
 
   useEffect(() => {
     if (activeTab === "cart") {
@@ -21,13 +21,13 @@ const DashBoard = () => {
     }
   }, [activeTab]);
 
-  // Function to calculate total price
+
   const calculateTotalPrice = (items) => {
     const total = items.reduce((sum, item) => sum + item.price, 0);
     setTotalPrice(total);
   };
 
-  // Sorting Function
+
   const handleSort = (sortBy) => {
     if (sortBy === "price") {
       const sortedData = [...products].sort((a, b) => b.price - a.price);
@@ -37,12 +37,12 @@ const DashBoard = () => {
 
   return (
     <>
-      {/* Cart / Wishlist Toggle Buttons */}
+    
       <div className="flex justify-center items-center bg-[#9538E2] w-11/12 mx-auto gap-4 p-5 rounded-lg shadow-lg">
         <button
           onClick={() => {
             setActiveTab("cart");
-            calculateTotalPrice(getCartData()); // Update total price when switching tabs
+            calculateTotalPrice(getCartData()); 
           }}
           className={`btn px-6 py-2 rounded-lg font-semibold shadow-md ${
             activeTab === "cart" ? "bg-white text-[#9538E2]" : "bg-gray-300"
@@ -60,7 +60,7 @@ const DashBoard = () => {
         </button>
       </div>
 
-      {/* Sort and Cart Section */}
+
       <div className="flex justify-between w-11/12 mx-auto mt-4">
         <h1>Cart</h1>
         <div className="flex gap-2">
@@ -76,7 +76,7 @@ const DashBoard = () => {
         </div>
       </div>
 
-      {/* Products Display */}
+ 
       <div>
         {products.length > 0 ? (
           products.map((product) => <AddToCart key={product.product_id} product={product} />)
@@ -85,7 +85,7 @@ const DashBoard = () => {
         )}
       </div>
 
-      {/* Modal */}
+     
       <dialog id="my_modal_4" className="modal">
         <div className="modal-box w-11/12 flex justify-center items-center flex-col">
         <div>

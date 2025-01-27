@@ -26,12 +26,12 @@ const CardDetails = () => {
     specification = [],
   } = items;
 
-  // Handle Add to Cart button click
+
   const handleAddToCart = () => {
     addCartData(items);
   };
 
-  // Handle Add to Wishlist button click
+
   const handleAddToWishlist = () => {
     addWishlistData(items);
   };
@@ -39,7 +39,7 @@ const CardDetails = () => {
   return (
     <div className="hero bg-base-200 px-10 py-10 ">
       <div className="hero-content flex flex-col lg:flex-row gap-[15px] items-center lg:items-start w-full">
-        {/* Product Image */}
+       
         <div className="w-full lg:w-[30%]">
           <img
             src={product_image}
@@ -47,7 +47,7 @@ const CardDetails = () => {
           />
         </div>
 
-        {/* Product Details */}
+    
         <div className="w-full lg:w-[60%] text-left">
           <h1 className="text-5xl font-bold">{product_title}</h1>
           <p className="py-6 text-xl font-semibold">Price: ${price}</p>
@@ -58,7 +58,7 @@ const CardDetails = () => {
           </div>
           <p>{description}</p>
 
-          {/* Specifications */}
+      
           <div className="mt-4">
             <h2 className="text-xl font-semibold">Specifications:</h2>
             {specification.length > 0 ? (
@@ -74,7 +74,7 @@ const CardDetails = () => {
             )}
           </div>
 
-          {/* Rating */}
+     
           <div className="m-4">Rating :</div>
           <div>
             <div className="rating">
@@ -113,7 +113,7 @@ const CardDetails = () => {
             {rating}
           </div>
 
-          {/* Buttons */}
+      
           <div className="mt-6 flex">
             <button 
               onClick={handleAddToCart} 
